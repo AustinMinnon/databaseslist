@@ -64,15 +64,15 @@ public class App {
 //       return new ModelAndView(model, layout);
 //     }, new VelocityTemplateEngine());
 //
-//     post("/categories", (request,response) -> {
-//       HashMap<String, Object>model = new HashMap<String, Object>();
-//       String name = request.queryParams("name");
-//       Category newCategory = new Category(name);
-//       model.put("category", newCategory);
-//       model.put("template", "templates/success.vtl");
-//       return new ModelAndView(model, layout);
-//     }, new VelocityTemplateEngine());
-//
+    // post("/categories", (request,response) -> {
+    //   HashMap<String, Object>model = new HashMap<String, Object>();
+    //   String name = request.queryParams("name");
+    //   Category newCategory = new Category(name);
+    //   model.put("category", newCategory);
+    //   model.put("template", "templates/success.vtl");
+    //   return new ModelAndView(model, layout);
+    // }, new VelocityTemplateEngine());
+
 //     get("/categories/:id", (request, response) -> {
 //       HashMap<String, Object> model = new HashMap<String, Object>();
 //       model.put("category", Category.find(Integer.parseInt(request.params(":id"))));
